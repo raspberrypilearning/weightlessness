@@ -44,9 +44,37 @@ As Mooncake is in Space, she would be experiencing the effects of weightlessness
 
 1. Inside the forever loop add a `move 2 steps` block. 
 
-1. Save your work so far and conn
+1. Save your work so far and click on the green flag to test your scripts work as expected. Mooncake should move in one direction until she reaches the edge of the stage.
+
+
+## Adding directonal movement
+
+Let's control the direction of Mooncake the Astro Cat with code. 
+
+1. Add another `when green flag clicked` control block to the scripts area for your sprite. 
+
+1. connect a `forever` looping block.
+
+1. Then add an `if else` control block inside the loop. 
+
+	Conditional blocks like `if` and `if else` allow you to set a condition, that if met triggers something to happen. For example you will set the condition here that if the right arrow key has been pressed then point the cat right and switch the sprite costume so that it looks like her jet pack is firing. Else, use the first costume.
+
+1. To set a condition in scratch you need to add some blocks into the space next to the word if. Drag a `key space pressed` sensing block and put it into the space. Using the drop down menu select `right arrow`.
+
+1. Inside the `if` part of the if else block put a `point in direction` movement block. Set the direction to right or `90` degrees. 
+
+1. Underneath add a `switch to costume` block and select your second sprite costume (the one with the flames coming out of the jet pack).
 	
 
+
+## Keep 
+
+Mooncake the Astro Cat's movement is programmed to be automatic. This means that when she hits the edge of the stage she stops. To keep the endless weigtless space theme going you can add some code to make the sprite reappear when she goes off screen.
+
+
+## Catch the randomly moving ISS
+
+## Make a game of it with variables
 
 ## Creating a Game Over screen
 
@@ -66,7 +94,7 @@ First you need to add a new Game Over background to the stage. You could paint o
 
 1. Then inside the foerver if block, place a `switch to background` block. Select **space background1** from the drop down list. This should be your game over screen. 
 
-1. Finally add a `stop all` control block underneath the last block. This will stop the game.
+1. Finally add a `stop all` control block underneath the last block. The Stop All control block will stop all the scripts in Scratch from running, ending the game.
 
 	![](images/game-over-script.png)
 5. Add the control block broadcast and create a new broadcast message called Game Over.	
