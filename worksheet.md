@@ -46,6 +46,7 @@ As Mooncake is in Space, she would be experiencing the effects of weightlessness
 
 1. Save your work so far and click on the green flag to test your scripts work as expected. Mooncake should move in one direction until she reaches the edge of the stage.
 
+![](images/move-code.png)
 
 ## Adding directonal movement
 
@@ -57,15 +58,17 @@ Let's control the direction of Mooncake the Astro Cat with code.
 
 1. Then add an `if else` control block inside the loop. 
 
-	Conditional blocks like `if` and `if else` allow you to set a condition, that if met triggers something to happen. For example you will set the condition here that if the right arrow key has been pressed then point the cat right and switch the sprite costume so that it looks like her jet pack is firing. Else, use the first costume.
+	Conditional blocks like `if` and `if else` allow you to set a condition, that if met triggers something to happen. For example you will set the condition here that if the left arrow key has been pressed then point the sprite left and switch the sprite costume so that it looks like her jet pack is firing. Else, use the first costume.
 
-1. To set a condition in scratch you need to add some blocks into the space next to the word if. Drag a `key space pressed` sensing block and put it into the space. Using the drop down menu select `right arrow`.
+1. To set a condition in scratch you need to add some blocks into the space next to the word if. Drag a `key space pressed` sensing block and put it into the space. Using the drop down menu select `left arrow`.
 
-1. Inside the `if` part of the if else block put a `point in direction` movement block. Set the direction to right or `90` degrees. 
+1. Inside the `if` part of the if else block put a `point in direction` movement block. Set the direction to left or `-90` degrees. 
 
 1. Underneath add a `switch to costume` block and select your second sprite costume (the one with the flames coming out of the jet pack).
 	
+	![](images/direction-code.png)
 
+1. Save and test that your direction arrow works. You will need to repeat this step for each direction that you want to move in, e.g. up, down and right.	
 
 ## Keep 
 
