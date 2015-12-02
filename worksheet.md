@@ -46,7 +46,7 @@ As Mooncake is in Space, she would be experiencing the effects of weightlessness
 
 1. Save your work so far and click on the green flag to test your scripts work as expected. Mooncake should move in one direction until she reaches the edge of the stage.
 
-![](images/move-code.png)
+	![](images/move-code.png)
 
 ## Adding directonal movement
 
@@ -70,12 +70,32 @@ Let's control the direction of Mooncake the Astro Cat with code.
 
 1. Save and test that your direction arrow works. You will need to repeat this step for each direction that you want to move in, e.g. up, down and right.	
 
-## Keep 
+## Wrapping space
 
-Mooncake the Astro Cat's movement is programmed to be automatic. This means that when she hits the edge of the stage she stops. To keep the endless weigtless space theme going you can add some code to make the sprite reappear when she goes off screen.
+Mooncake the Astro Cat's movement is programmed to be automatic. This means that when she hits the edge of the stage she stops. You can add some code to make the sprite reappear on the other side when she goes off screen to give the appearance of endless space. This is called wrapping. 
+
+1. Add a `When I recieve` control block onto the scripts area for your Mooncake sprite. Select **start** from the drop down list.
+
+1. Next connect a `forever` loop to the control block. Inside the forever loop add a `Move 2 steps` motion block. 
+
+1. Underneath the move block, connect an `if` control block. This block has a space to add other blocks to set the condition. 
+
+1. Click on the operators blocks and select the greater than or equal to block which has this symbol `<`. Drag the block and place it insde the if space. 
+
+1. On the left side of the `<` symbol add a `x position` movement block. Then on the right side type `240`. 
+
+1. Inside the if block place a `set x to ` block and type the value `-240`. 
+
+	This sets the condition that if the position of the sprite on the x axis is 240 then move the sprite to -240 on the same axis. So if the sprite goes off the right hand side of the screen then she will repear on the left. You will need to repeat the steps above for the left hand side of the screen but remember to switch the values so that the x position is greater than or equal to `-240` and the `set x to ` block value is `240`. 
+
+1. Now you will need to add two more conditions for the top and bottom of the screen. Repeat the steps above but this time use the values for `y` axis `180` and `-180`. Check the image below against your code to check that your values are correct.
+
+	![](images/wrapping.png)
 
 
 ## Catch the randomly moving ISS
+
+
 
 ## Make a game of it with variables
 
