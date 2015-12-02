@@ -68,7 +68,7 @@ Let's control the direction of Mooncake the Astro Cat with code.
 	
 	![](images/direction-code.png)
 
-1. Save and test that your direction arrow works. You will need to repeat this step for each direction that you want to move in, e.g. up, down and right.	
+1. Save and test that your direction arrow works. You will need to repeat this step for each direction that you want to move in, e.g. up, down and right. What values would you need to change for each direction?	
 
 ## Wrapping space
 
@@ -92,12 +92,33 @@ Mooncake the Astro Cat's movement is programmed to be automatic. This means that
 
 	![](images/wrapping.png)
 
+## Make a game of it with variables
+A way to keep score during the game is required. You can use a variable in your code to so this. A variable is a fancy name for storing data for use later on.
+
+1. To create a variable, click on `Variables` in the blocks palette and then click `Make a Variable`. The `New Variable` window opens and asks you to type a name for your variable.
+1. Name the first variable `score` and ensure that `For all sprites` is checked before clicking **OK**.
+1. You’ll see some orange blocks are added to your Variable area called score, and a small counter box will appear on the stage.
+1. Create another variable called `Time` that you can use to time each game. 
 
 ## Catch the randomly moving ISS
 
+Mooncake needs something to chase in order for this program to become a game for people to play. This could be cat food, aliens or even a space mouse! We've used an image of the International Space Station for Mooncake to try and reach but you don't have to. Simply follow the steps and replace the sprite with whatever you would like to use. 
 
+1. If your Raspberry Pi is connected to the internet you can download [this ISS sprite](files/iss.png) using the link. Save the image somewhere that you will be able to find it later on your computer or Raspberry Pi.
+1. Next add a new sprite by clicking on the `import a new sprite` icon on the sprites palette and select `ISS.png` from the choices and click **OK**. Another sprite will be added to your sprites palette. 
+1. Click on the ISS sprite to select it. A blank scripts area will appear. This is where you will write the code that affects this sprite. 
+1. Begin by placing a `When I receive` control block to the scripts area. Using the drop down menu select `start`. 
+1. Connect a `hide` looks block underneath, followed by a `wait 1 secs` block and then a `show` looks block. 
+1. To make the game interesting, let's use some code the make the ISS randomly appear at different places across the screen. To do this add a `set x to ` block to the script. And inside the space add a `pick random` block and change the values to `-220 to 220`. This will place the ISS sprite on the x axis on the screen anywhere between -220 and 220. Repeat this step for the y axis to `set y to pick random -160 to 160`. 
 
-## Make a game of it with variables
+	This code will allow the ISS sprite to appear randomnly once. Mooncake would easily be able to reach it and the game would be over. You can add some code so that each time Mooncake catches the ISS, it reappears randomly elsewhere. 
+
+1. Underneath the last block add a `forever if` conditional loop. Inside the space on the block drop in a `touching ?` sensing block. Using the drop down arrow select the Astro cat sprite.   
+1. Inside the forever if loop add a `change score by 1` variable block. Each time the player reaches the ISS sprite the score will go up by 1 point. 
+1. Then repeat the code you used to randomly place the ISS on the screen like this:
+
+	![](images/chase-iss.png)
+
 
 ## Creating a Game Over screen
 
@@ -120,4 +141,12 @@ First you need to add a new Game Over background to the stage. You could paint o
 1. Finally add a `stop all` control block underneath the last block. The Stop All control block will stop all the scripts in Scratch from running, ending the game.
 
 	![](images/game-over-script.png)
-5. Add the control block broadcast and create a new broadcast message called Game Over.	
+1. Add the control block broadcast and create a new broadcast message called Game Over.
+1. Save your game and test that it works by clicking on the green start flag. 
+
+	![](images/finished.png)	
+	
+## What's next?	
+- You could make the game more interesting by adding extra sprites for Mooncake to reach. PErhaps some of them could give her a speed up or a slow down. Adding osticles could also be a fun way to add more excitment to your game. 
+- If you have a [Sense HAT](https://www.raspberrypi.org/products/sense-hat/), could you use it to trigger the timer instead of pressing the space bar?
+- Check out some of our other [Space themed projects](https://astro-pi.org/resources/). 
