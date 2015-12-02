@@ -119,7 +119,7 @@ Mooncake needs something to chase in order for this program to become a game for
 
 	![](images/chase-iss.png)
 1. Save your work by clicking on **File** and **Save**.
-2. 
+
 ## Creating a Game Over screen
 
 First you need to add a new Game Over background to the stage. You could paint or import a new one, but here we will duplicate the existing space background and edit it to display Game Over across it in large letters. 
