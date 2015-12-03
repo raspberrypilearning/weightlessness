@@ -80,7 +80,7 @@ Let's control the direction of Mooncake the Astro Cat with code.
 
 Mooncake the Astro Cat's movement is programmed to be automatic. This means that when she hits the edge of the stage she stops. You can add some code to make the sprite reappear on the other side when she goes off screen, to give the appearance of endless space. This is called wrapping. 
 
-1. Add a `When I recieve` control block onto the scripts area for your Mooncake sprite. Select **start** from the drop-down list.
+1. Add a `When I receive` control block onto the scripts area for your Mooncake sprite. Select **start** from the drop-down list.
 
 1. Next, connect a `forever` loop to the control block. Add a `Move 2 steps` motion block inside the `forever` loop. 
 
