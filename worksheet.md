@@ -86,9 +86,9 @@ Mooncake the Astro Cat's movement is programmed to be automatic. This means that
 
 1. Underneath the `move` block, connect an `if` control block. This block has a space to add other blocks to set the condition. 
 
-1. Click on the operators blocks and select the greater than or equal to block which has this symbol `<`. Drag the block and place it insde the `if` space. 
+1. Click on the operators blocks and select the greater than block which has this symbol `>`. Drag the block and place it inside the `if` space. 
 
-1. Add an `x position` movement block on the left side of the `<` symbol, then on the right side type `240`. 
+1. Add an `x position` movement block on the left side of the `>` symbol, then on the right side type `240`. 
 
 1. Place a `set x to ` block inside the `if` block and type the value `-240`. 
 
