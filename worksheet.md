@@ -109,13 +109,16 @@ A way to keep score during the game is required. You can use a variable in your 
 1. You’ll see some orange blocks are added to your Variable area called `score`, and a small counter box will appear on the stage.
 
 1. Create another variable called `Time` that you can use to time each game. 
+
 1. Navigate back to your first script block that looks like this:
 
 	![](images/new-broadcast.png)
 
-1. Add a `set score to 0` and a `set time to 0` variable block above the broadcast block so that at the start of each game they will be reset to 0.
-1. Add a forever loop underneath.
-1. Place a `change time by 1` variable block inside the forever loop followed by a `wait 1 secs` control block so that each time round the loop the time will increase by 1. 
+1. Add a `set score to 0` and a `set time to 0` variable block above the `broadcast` block, so that at the start of each game they will be reset to 0.
+
+1. Add a `forever` loop underneath.
+
+1. Place a `change time by 1` variable block inside the `forever` loop, followed by a `wait 1 secs` control block, so that each time round the loop the time will increase by 1. 
 
 	![](images/variables.png)
 
