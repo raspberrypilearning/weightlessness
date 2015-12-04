@@ -6,7 +6,7 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 ## Set the stage with a space theme
 
-1. If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. You can also use [Scratch 2.0 online](https://scratch.mit.edu/projects/editor/?tip_bar=getStarted) for this activity, although some of the blocks may be slightly different. 
+1. If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**. 
 
 1. Create a new file by selecting **File** and **New**.
 
