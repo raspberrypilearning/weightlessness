@@ -12,9 +12,9 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 1. Delete the Scratch cat sprite by right-clicking on it and selecting **Delete** from the menu that is displayed.
 
-1. For this project, you need to create a new background to act as the Earth. To do this, click on `stage` in the sprites palette and then click on `Backgrounds` next to the `scripts` tab.
+1. For this project, you need to create a new background. To do this, click on `stage` in the sprites palette and then click on `Backgrounds` next to the `scripts` tab.
 
-1. Click on `Paint` to draw your own background. Select the rectangle icon and a green colour. It's important to fill the rectangle with one solid colour. Once you're happy with your stage design, click **OK**. 	
+1. Click on `Paint` to draw your own background. Once you're happy with your stage design, click **OK**. 	
 
 1. You can use the Scratch cat sprite, or alternatively you can use our [Mooncake - the Astro Cat sprite](files/Astro-cat.png). If your Raspberry Pi is connected to the internet you can download this sprite using the link. Save the image somewhere you can find it later on your Raspberry Pi.
 
