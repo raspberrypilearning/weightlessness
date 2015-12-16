@@ -22,7 +22,7 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 	![import new sprite](images/import-sprite-icon.png)
 	
-1. Click on the `costumes` tab for the Mooncake sprite. You will see one costume listed. Click on **import**. This time, select [Mooncake - the Astro Cat sprite version 2](files/Astro-cat2.png). You will see two Mooncake costumes: one with a jetpack firing and one without flames. You will use these costumes within your game to show that Mooncake is moving. 
+1. Click on the `costumes` tab for the Mooncake sprite. You will see one costume listed. Click on **import**. This time, select [Mooncake - the Astro Cat sprite version 2](files/Astro-cat2.png). You will see two Mooncake costumes: one with a jetpack firing and one without. You will use these costumes within your game to show that Mooncake is moving. 
 	  	
 1. Click on the `scripts` tab of the sprite, and then save your Scratch project work by clicking on **File** and **Save As**. Name your program **weightless** and save it in your home directory or another place that you can find it later.
 
