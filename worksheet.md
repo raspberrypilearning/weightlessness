@@ -18,9 +18,9 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 1. Next you will need to create a single sprite with two costumes, one shown flying and one falling. You can download an example sprite below which features Mooncake (the Raspberry Pi cat) wearing a jetpack.
 
-     [![Mooncake - the Astro Cat](files/Astro-cat.png)](files/Astro-Cat.sprite)
+     [![Mooncake - the Astro Cat](files/Astro-cat.png)](https://github.com/raspberrypilearning/weightlessness/blob/master/files/Astro-Cat.sprite?raw=true)
      
-1.  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](files/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+1.  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](https://github.com/raspberrypilearning/weightlessness/blob/master/files/Astro-Cat.sprite?raw=true). Save the sprite somewhere you can find it later.
 
 1. Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
 
