@@ -16,13 +16,17 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 1. Click on `Paint` to draw your own background. Once you're happy with your stage design, click **OK**. 	
 
-1. You can use the Scratch cat sprite, or alternatively you can use our [Mooncake - the Astro Cat sprite](files/Astro-cat.png). If your Raspberry Pi is connected to the internet you can download this sprite using the link. Save the image somewhere you can find it later on your Raspberry Pi.
+1. Next you will need to create a single sprite with two costumes, one shown flying and one falling. You can download an example sprite below which features Mooncake (the Raspberry Pi cat) wearing a jetpack.
 
-1. Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-cat.png` from the choices and click **OK**.
+     [![Mooncake - the Astro Cat](files/Astro-cat.png)](files/Astro-Cat.sprite)
+     
+1.  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](files/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+
+1. Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
 
 	![import new sprite](images/import-sprite-icon.png)
 	
-1. Click on the `costumes` tab for the Mooncake sprite. You will see one costume listed. Click on **import**. This time, select [Mooncake - the Astro Cat sprite version 2](files/Astro-cat2.png). You will see two Mooncake costumes: one with a jetpack firing and one without. You will use these costumes within your game to show that Mooncake is moving. 
+1. Click on the `costumes` tab for the Mooncake sprite. You will see two Mooncake costumes: one with a jetpack firing and one without. You will use these costumes within your game to show that Mooncake is moving. 
 	  	
 1. Click on the `scripts` tab of the sprite, and then save your Scratch project work by clicking on **File** and **Save As**. Name your program **weightless** and save it in your home directory or another place that you can find it later.
 
