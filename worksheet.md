@@ -181,7 +181,7 @@ First, you need to add a new Game Over background to the stage. You could paint 
 
 	![](images/finished.png)
 
-## What's next?
+## What next?
 
 - You could make the game more interesting by adding extra sprites for Mooncake to reach. Perhaps some of them could give her a speed boost or slow her down. Adding obstacles could also be a fun way to add more excitement to your game.
 
