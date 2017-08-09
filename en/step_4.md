@@ -14,7 +14,7 @@
 
      ![Mooncake - the Astro Cat](images/Astro-cat.png)
 
--  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](images/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+-  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](resources/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
 
 - Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
 
