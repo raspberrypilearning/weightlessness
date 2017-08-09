@@ -12,9 +12,9 @@
 
 - Next you will need to create a single sprite with two costumes, one shown flying and one falling. You can download an example sprite below which features Mooncake (the Raspberry Pi cat) wearing a jetpack.
 
-     [![Mooncake - the Astro Cat](images/Astro-cat.png)](files/Astro-Cat.sprite)
+     ![Mooncake - the Astro Cat](images/Astro-cat.png)
 
--  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](files/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+-  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](images/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
 
 - Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
 

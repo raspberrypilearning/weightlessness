@@ -18,9 +18,9 @@ You can recreate the effects of weightlessness in space in this Scratch game, ei
 
 1. Next you will need to create a single sprite with two costumes, one shown flying and one falling. You can download an example sprite below which features Mooncake (the Raspberry Pi cat) wearing a jetpack.
 
-     [![Mooncake - the Astro Cat](images/Astro-cat.png)](files/Astro-Cat.sprite)
+     ![Mooncake - the Astro Cat](images/Astro-cat.png)
 
-1.  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](files/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+1.  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](images/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
 
 1. Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
 
@@ -130,7 +130,7 @@ A way to keep score during the game is required. You can use a variable in your 
 
 Mooncake needs something to chase in order for this program to become a game for people to play. This could be cat food, aliens or even a space mouse! We've used an image of the International Space Station for Mooncake to try and reach but you can use what you like. Simply follow the steps and replace the sprite with whatever you would like to use.
 
-1. If your Raspberry Pi is connected to the internet you can download [this ISS sprite](files/ISS.sprite) using the link. Save the image somewhere that you'll be able to find it later on your computer or Raspberry Pi.
+1. If your Raspberry Pi is connected to the internet you can download [this ISS sprite](images/ISS.sprite) using the link. Save the image somewhere that you'll be able to find it later on your computer or Raspberry Pi.
 
 1. Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette, then select `ISS` from the choices and click **OK**. Another sprite will be added to your sprites palette.
 
