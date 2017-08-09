@@ -2,7 +2,7 @@
 
 Mooncake needs something to chase in order for this program to become a game for people to play. This could be cat food, aliens or even a space mouse! We've used an image of the International Space Station for Mooncake to try and reach but you can use what you like. Simply follow the steps and replace the sprite with whatever you would like to use.
 
-- If your Raspberry Pi is connected to the internet you can download [this ISS sprite](images/ISS.sprite) using the link. Save the image somewhere that you'll be able to find it later on your computer or Raspberry Pi.
+- If your Raspberry Pi is connected to the internet you can download [this ISS sprite](resources/ISS.sprite) using the link. Save the image somewhere that you'll be able to find it later on your computer or Raspberry Pi.
 
 - Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette, then select `ISS` from the choices and click **OK**. Another sprite will be added to your sprites palette.
 
