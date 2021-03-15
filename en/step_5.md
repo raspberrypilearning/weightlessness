@@ -1,6 +1,6 @@
 ## Catch a sprite
 
-Your character needs an object to chase. Your object could be another character. What will you choose? We're used the **Dot** spacedog sprite but you can use whatever you like. 
+Your character needs an object to chase. Your object could be an item or another character. What will you choose? We used the **Dot** space dog sprite but you can use whatever you like. 
 
 --- task ---
 
@@ -24,7 +24,7 @@ Drag a `when flag clicked`{:class="block3events"} block to your object sprite. U
 
 ```blocks3
 when flag clicked
-hide // disapears from the stage
+hide // disappears from the stage
 wait (1) seconds // builds suspense
 go to [random position v] // moves to new position
 show // appears on the stage
@@ -46,12 +46,12 @@ To sense `if`{:class="block3control"} your sprites are touching, add a `touching
 
 ```blocks3
 when flag clicked
-hide // disapears from the stage
+hide // disappears from the stage
 wait (1) seconds // builds suspense
 go to [random position v] // moves to new position
 show // appears on the stage
 +forever
-if <touching [Ripley v]> then // update to show your first sprite
+if <touching [Ripley v]> then // update block to show your character sprite
 ```
 
 --- /task ---
@@ -64,7 +64,7 @@ Inside the `if`{:class="block3control"} block add the same four blacks you used 
 
 ```blocks3
 when flag clicked
-hide // disapears from the stage
+hide // disappears from the stage
 wait (1) seconds // builds suspense
 go to [random position v] // moves to new position
 show // appears on the stage

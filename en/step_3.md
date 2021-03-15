@@ -6,7 +6,7 @@ At the moment, your character sprite is quite big so your game will be too easy!
 
 --- task ---
 
-From the Sprite pane click in the **Size** property and change the value to `50'%:
+From the Sprite pane click in the **Size** property and change the value to `50`%:
 
 ![Sprite pane with size set to 50 percent](images/size-property.png)
 

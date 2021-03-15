@@ -12,14 +12,14 @@ Drag a `when space key pressed`{:class="block3events"} block to an unused space 
 
 ```blocks3
 when [up arrow v] key pressed // update key to up arrow
-point in direction (0) //pointing up
+point in direction (0) //direction 0 is pointing up
 ```
 
 **Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the up arrow to see your character sprite move upward. 
 
 --- /task ---
 
-You'll need to add three more scripts to move left, right and down. Earlier you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
+You'll need to add three more scripts to move left, right and down. When you set up your character you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
 
 --- task ---
 
@@ -29,17 +29,17 @@ Create three more scripts using `when space key pressed`{:class="block3events"} 
 
 ```blocks3
 when [right arrow v] key pressed // update key to right arrow
-point in direction (90) //pointing to the right
+point in direction (90) //direction 90 is pointing to the right
 ```
 
 ```blocks3
 when [left arrow v] key pressed // update key to left arrow
-point in direction (-90) //pointing to the left
+point in direction (-90) //direction -90 is pointing to the left
 ```
 
 ```blocks3
 when [down arrow v] key pressed // update key to down arrow
-point in direction (180) //pointing down
+point in direction (180) //direction 180 is pointing down
 ```
 
 **Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.

@@ -30,7 +30,7 @@ Try unticking the box to see what happens, you can choose whether or not you wan
 
 --- /task ---
 
-The `score`{:class="block3variables"} variable will start at '0' `when  flag clicked`{:class="block3events"} and store the number of times your sprites `touch`{:class="block3sensing". 
+The `score`{:class="block3variables"} variable will start at '0' `when  flag clicked`{:class="block3events"} and store the number of times your sprites `touch`{:class="block3sensing"}. 
 
 --- task ---
 
