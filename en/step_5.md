@@ -1,6 +1,6 @@
 ## Catch a sprite
 
-Your character needs something to chase.It could be another character or an object.What will you choose? We're used the **Dot** spacedog sprite but you can use whatever you like. 
+Your character needs an object to chase. Your object could be another character. What will you choose? We're used the **Dot** spacedog sprite but you can use whatever you like. 
 
 --- task ---
 
@@ -14,11 +14,11 @@ Click on the **Choose a sprite** button to see the available sprites. Find one y
 
 --- /task ---
 
-Add code to make your sprite appear in different places each time the `green flag`{:class="block3events"} is clicked.
+Add code to make your object sprite appear in different places each time the `green flag`{:class="block3events"} is clicked.
 
 --- task ---
 
-Drag a `when flag clicked`{:class="block3events"} block to your new sprite. Use `hide`{:class="block3looks"}, `go to random position`{:class="block3motion"}, `wait`{:class="block3control"} and `show`{:class="block3looks"} blocks so your new sprite appears in a surprise position:
+Drag a `when flag clicked`{:class="block3events"} block to your object sprite. Use `hide`{:class="block3looks"}, `go to random position`{:class="block3motion"}, `wait`{:class="block3control"} and `show`{:class="block3looks"} blocks so your object sprite appears in a surprise position:
 
 ![the Dot sprite icon](images/dot-sprite-icon.png)
 
@@ -30,17 +30,17 @@ go to [random position v] // moves to new position
 show // appears on the stage
 ```
 
-**Test:** Run your project a couple of times. Does your new sprite move to a different position each time?
+**Test:** Run your project a couple of times. Does your object sprite move to a different position each time?
 
 --- /task ---
 
-To turn your project into a game the script needs to repeat every time your characters touch.
+To turn your project into a game the script needs to repeat every time your character sprite and object sprite touch.
 
 --- task ---
 
-Add a `forever`{:class="block3control"} loop to the bottom of your script and insert an `if`{:class="block3control"} condition block inside. 
+Add a `forever`{:class="block3control"} loop to the bottom of your object sprite script and insert an `if`{:class="block3control"} condition block inside. 
 
-To sense `if`{:class="block3control"} your sprites are touching, add a `touching mouse-pointer ?`{:class="block3sensing"} block and select your sprite name from the dropdown:
+To sense `if`{:class="block3control"} your sprites are touching, add a `touching mouse-pointer ?`{:class="block3sensing"} block and select your character sprite name from the drop down:
 
 ![the Dot sprite icon](images/dot-sprite-icon.png)
 
@@ -76,7 +76,7 @@ if <touching [Ripley v]> then
 + show 
 ```
 
-**Test:** Run your project. Use the arrow keys to move your character. When your sprites touch your new sprite will hide and appear in a new position. 
+**Test:** Run your project. Use the arrow keys to move your character. When your sprites touch your object sprite will hide and appear in a new position. 
 
 --- /task ---
 

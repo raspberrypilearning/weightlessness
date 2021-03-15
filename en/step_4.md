@@ -2,7 +2,7 @@
 
 Astronauts can control the direction of their movements. The character in your game will be controlled using the keyboard arrow keys.
 
-First, add a new script to move your sprite upward when you press the up arrow key.
+First, add a new script to move your character sprite upward when you press the up arrow key.
 
 --- task ---
 
@@ -15,7 +15,7 @@ when [up arrow v] key pressed // update key to up arrow
 point in direction (0) //pointing up
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the up arrow to see your sprite move upward. 
+**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the up arrow to see your character sprite move upward. 
 
 --- /task ---
 
@@ -42,7 +42,7 @@ when [down arrow v] key pressed // update key to down arrow
 point in direction (180) //pointing down
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your sprite in all directions.
+**Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
 
 --- /task ---
 

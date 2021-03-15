@@ -1,8 +1,8 @@
 ## Add weightlessness
 
-As your character is in space, it would be experiencing the effects of weightlessness and float about. 
+Your character is in space and will be floating around experiencing the effects of weightlessness. 
 
-At the moment, your sprite is quite big so your game will be too easy!
+At the moment, your character sprite is quite big so your game will be too easy!
 
 --- task ---
 
@@ -12,11 +12,11 @@ From the Sprite pane click in the **Size** property and change the value to `50'
 
 --- /task ---
 
-A group of connected blocks in Scratch is called a script. You will add a script to your sprite to start in the middle of the Stage then move `forever`{:class="block3control"} through space. 
+A group of connected blocks in Scratch is called a script. You will add a script to your character sprite to start in the middle of the Stage then move `forever`{:class="block3control"} through space. 
 
 --- task ---
 
-Click on the `Events`{:class="block3events"} Blocks menu and drag a `when flag clicked`{:class="block3events"} block to the Code area. Connect some `Motion`{:class="block3motion"} blocks to the bottom of your script to get the sprite ready to move:
+Click on the `Events`{:class="block3events"} Blocks menu and drag a `when flag clicked`{:class="block3events"} block to the Code area. Connect some `Motion`{:class="block3motion"} blocks to the bottom of your script to get your character sprite ready to move:
 
 ![the Ripley sprite icon](images/ripley-sprite-icon.png)
 
@@ -29,7 +29,7 @@ point in direction (90) // facing the right
 
 ![The scratch editor showig the script in the Code area](images/first-code.png)
 
-**Test:** Click on the `green flag`{:class="block3events"}, your sprite will move to the middle of the Stage.
+**Test:** Click on the `green flag`{:class="block3events"}, your character sprite will move to the middle of the Stage.
 
 --- /task ---
 
@@ -49,7 +49,7 @@ move (2) steps
 if on edge, bounce // turn around at edge of Stage
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} again, your sprite will float across the Stage.
+**Test:** Click on the `green flag`{:class="block3events"} again, your character sprite will float across the Stage.
 
 --- /task ---
 

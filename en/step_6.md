@@ -2,7 +2,7 @@
 
 Games often have features to show players how well they did against other players or themselves. Can you think of a game that shows you how well you did? 
 
-In your weightlessness game you'll use the built-in Scratch `timer`{:class="block3sensing"} variable and create a `score`{:class="block3variables"} variable to show how many objects the player caught in 30 seconds. 
+In your weightlessness game you'll use the built-in Scratch `timer`{:class="block3sensing"} variable and create a `score`{:class="block3variables"} variable to show how many objects the character caught in 30 seconds. 
 
 First, create a `score`{:class="block3variables"} variable. 
 
@@ -20,7 +20,9 @@ Type 'score' as your **New variable name** and select **For all sprites**:
 
 --- task ---
 
-The `score`{:class="block3variables"} variable appears in the `Variables`{:class="block3variables"} Blocks menu. It has a tick next to it which means it appears on the Stage. Try unticking the box to see what happens, you can choose whether you want to display your `score`{:class="block3variables"} on Stage during the game. 
+The `score`{:class="block3variables"} variable appears in the `Variables`{:class="block3variables"} Blocks menu. It has a tick next to it which means it appears on the Stage. 
+
+Try unticking the box to see what happens, you can choose whether or not you want to display your `score`{:class="block3variables"} on Stage during the game. 
 
 ![Variables blocks menu with score variable ticked](images/score-ticked.png)
 
@@ -32,7 +34,7 @@ The `score`{:class="block3variables"} variable will start at '0' `when  flag cli
 
 --- task ---
 
-Click on your first sprite and a new script to reset the score:
+Click on your character sprite and a new script to reset the score:
 
 ![the Ripley sprite icon](images/ripley-sprite-icon.png)
 
@@ -45,7 +47,7 @@ set [score v] to (0)
 
 --- task ---
 
-Click on your second sprite and find the `if`{:class="block3control"} `touching`{:class="block3sensing"} script. Insert a block to `change score by 1`{:class="block3variables"}:
+Click on your object sprite and find the `if`{:class="block3control"} `touching`{:class="block3sensing"} script. Insert a block to `change score by 1`{:class="block3variables"}:
 
 ![the Dot sprite icon](images/dot-sprite-icon.png)
 
@@ -68,13 +70,13 @@ show
 
 --- /task ---
 
-Now that you have a `variable`{:class="block3variables"} to store the score you can use this in other ways. Your sprite can `say`{:class="block3looks"} the `score`{:class="block3variables"} at the end of the game.
+Now that you have a `variable`{:class="block3variables"} to store the score you can use this in other ways. Your character sprite can `say`{:class="block3looks"} the `score`{:class="block3variables"} at the end of the game.
 
 --- task ---
 
-Click on your first character sprite. Add a new script to end the game `when timer is greater than 30`{:class="block3events"}.
+Click on your character sprite. Add a new script to end the game `when timer is greater than 30`{:class="block3events"}.
 
-**Tip:** To find `when timer >`{:class="block3events"} use the `when loudness >`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu and change the drop down to `timer`{:class="block3events"}.
+**Tip:** To find the `when timer >`{:class="block3events"} block use the `when loudness >`{:class="block3events"} block from the `Events`{:class="block3events"} Blocks menu and change the drop down to `timer`{:class="block3events"}.
 
 ![the Ripley sprite icon](images/ripley-sprite-icon.png)
 

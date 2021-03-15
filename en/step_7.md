@@ -8,7 +8,7 @@ To create a game over screen you'll need to add a backdrop and edit it with colo
 
 Click on the **Choose a backdrop** button. If you want to continue your space theme, click on the **Space** category. We chose **Nebula** but you can choose any backdrop you like:
 
-![Choose a backdrop button](images/choose-a-backdrop.png)
+![Choose a backdrop button](images/choose-backdrop-icon.png)
 
 --- /task ---
 
@@ -28,11 +28,11 @@ Click on the **Text** tool:
 
 ![The text tool icon](images/text-icon.png)
 
-Choose the colour and font style you want from the drop down boxes. 
+Choose the colour and font style you want from the drop down boxes: 
 
 ![The fill chooser tool and font style drop down](images/text-properties.png)
 
-**Tip:** Use the sliders in the **Fill** colour chooser to make your colour. If the colours turn only to black or white you might need to adjust the **Saturation** or **Brightness** sliders.
+**Tip:** Use the sliders in the **Fill** colour chooser to pick your colour. If the colours turn only to black or white you might need to adjust the **Saturation** or **Brightness** sliders.
 
 --- /task ---
 
@@ -48,7 +48,7 @@ Set up you game to start on your first backdrop then change to the Game Over bac
 
 --- task ---
 
-Click on you first character sprite and add a `switch backdrop`{:class="block3looks"} block to the end of your `set score to 0`{:class="block3variables"} script:
+Click on you character sprite, at the end of your `set score to 0`{:class="block3variables"} script, add a `switch backdrop`{:class="block3looks"} block:
 
 ![the Ripley sprite icon](images/ripley-sprite-icon.png)
 

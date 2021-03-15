@@ -1,6 +1,6 @@
 ## Set the space scene
 
-In space it feels like everything is floating because everything becomes **weightless** outside of our planet Earth. On Earth, **gravity** pulls everything and everybody down towards the ground. 
+On Earth, **gravity** pulls everything and everybody down towards the ground. In space it feels like everything is floating because everything becomes **weightless** outside of our planet Earth. 
 
 You will set up your weightlessness space game with a space backdrop and a space character. 
 
@@ -42,7 +42,7 @@ Your stage should now look like this:
 
 --- /task ---
 
-Sprites are objects in Scratch. Can you find a sprite that has already been included in your project? That’s Scratch the cat but we need a sprite with an astronaut suit. 
+Sprites are character and objects in Scratch. Can you find a sprite that has already been included in your project? That’s Scratch the cat but we need a sprite with an astronaut suit. 
 
 --- task ---
 
@@ -76,17 +76,19 @@ Your stage should look like this:
 
 --- /task ---
 
+--- task --- 
+
 ## Save your project
 
 Type 'Weightlessness' into the project title box at the top of the screen: 
 
-![The Stage pane highlighted](images/project-title.png)
+![The proect title box with weightlessness typed in](images/project-title.png)
 
 **Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
 
 Next, click on File, and then on Save now to save your project:
 
-![The Stage pane highlighted](images/save-now.png)
+![The file menu with save now highlighted](images/save-now.png)
 
 If you are not online or you do not have a Scratch account, you can click on Save to your computer to save a copy of your project.
 

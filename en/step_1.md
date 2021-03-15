@@ -4,8 +4,8 @@ Create a Scratch game to simulate the effects of weightlessness in space.
 
 You will:
 
-- Simulate weightlessness using `forever`{:class="block3control"} loops and `point in direction`{:class="block3motion"} blocks.
-- Add and edit a game over backdrop then `switch backdrop`{:class="block3looks"} using code.
+- Simulate weightlessness using a `forever`{:class="block3control"} loop and `point in direction`{:class="block3motion"} blocks.
+- Add and edit a 'Game Over' backdrop then `switch backdrop`{:class="block3looks"} using code.
 - Use the Scratch `timer`{:class="block3sensing"} variable and make your own `score variable`{:class="block3variables"} to create a game.
 
 --- no-print ---
@@ -13,7 +13,7 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the green flag to start the game then use the arrow keys to move around.
+Click on the green flag to start the game. Use the arrow keys to move around.
 
 How many times can you catch the **Dot** dog sprite in 30 seconds?
 </div>
