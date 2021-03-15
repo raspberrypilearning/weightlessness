@@ -36,7 +36,7 @@ Select the **Space** category and choose the backdrop you like best:
 
 --- task ---
 
-Your stage should now look like this:
+Your stage should now look something like this:
 
 ![The stage showing the new backdrop](images/stage-backdrop.png)
 
@@ -70,7 +70,7 @@ Click in the search box and type `space` then select your favourite character. W
 
 --- task ---
 
-Your stage should look like this: 
+Your stage should look something like this: 
 
 ![Stage with the Ripley sprite](images/ripley-stage.png)
 
