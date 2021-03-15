@@ -1,21 +1,33 @@
-## What you will make
-In this activity, you will learn how to simulate the effects of weightlessness in space with this Scratch game, as well as computer science concepts like sequencing, looping, variables, and conditionals. 
+## Introduction
 
-You can learn more about the forces of gravity and the effects of weightlessness, as well as more about British ESA Astronaut Tim Peake's mission aboard the International Space Station, on [the UK National STEM Centre website here](http://www.nationalstemcentre.org.uk/timpeake).
+Create a Scratch game to simulate the effects of weightlessness in space. 
 
-## What you will learn
-By creating a weightlessness space game in Scratch, you will learn:
+You will:
 
-- About the force of gravity and weightlessness in space
-- How to import images into Scratch, and use them as backgrounds and sprites
-- How to store data in variables
-- How to use loops
-- How to set and use conditionals
-- How to use operators
-- How to repeat a background in a game using wrapping
-- How to create a game over screen
+- Simulate weightlessness using `forever`{:class="block3control"} loops and `point in direction`{:class="block3motion"} blocks.
+- Add and edit a game over backdrop then `switch backdrop`{:class="block3looks"} using code.
+- Use the Scratch `timer`{:class="block3sensing"} variable and make your own `score variable`{:class="block3variables"} to create a game.
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+--- no-print ---
+--- task ---
+### Try it
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1">  
+Click on the green flag to start the game then use the arrow keys to move around.
 
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
+How many times can you catch the **Dot** dog sprite in 30 seconds?
+</div>
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/501663888/?autostart=false" frameborder="0"></iframe>
+</div>
+</div>
+--- /task ---
+--- /no-print ---
 
+--- print-only ---
+![Complete project](images/showcase_static.png)
+--- /print-only ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Tim Peake**</span> was the first British ESA astronaut to visit the International Space Station. You can find out more about his mission, the forces of gravity and the effects of weightlessness on [The National STEM Centre website](http://www.nationalstemcentre.org.uk/timpeake){:target="_blank"}.
+</p>

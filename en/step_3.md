@@ -1,6 +1,56 @@
-## Weightlessness: Mooncake in Space
+## Add weightlessness
 
-In space, it feels like everything is floating. This is because everything becomes **weightless** outside of our planet, Earth. This is probably the biggest difference from being on Earth, where everything and everybody is pulled down towards the ground. On Earth, we can all feel this downward pull, but we're so used to it that we sometimes don't even think about it. This pull or attraction we feel is called **gravity**.
+As your character is in space, it would be experiencing the effects of weightlessness and float about. 
 
-You can recreate the effects of weightlessness in space in this Scratch game, either by using [Scratch online](https://scratch.mit.edu/) from a Computer or by using Scratch on the Raspberry Pi.
+At the moment, your sprite is quite big so your game will be too easy!
 
+--- task ---
+
+From the Sprite pane click in the **Size** property and change the value to `50'%:
+
+![Sprite pane with size set to 50 percent](images/size-property.png)
+
+--- /task ---
+
+A group of connected blocks in Scratch is called a script. You will add a script to your sprite to start in the middle of the Stage then move `forever`{:class="block3control"} through space. 
+
+--- task ---
+
+Click on the `Events`{:class="block3events"} Blocks menu and drag a `when flag clicked`{:class="block3events"} block to the Code area. Connect some `Motion`{:class="block3motion"} blocks to the bottom of your script to get the sprite ready to move:
+
+![the Ripley sprite icon](images/ripley-sprite-icon.png)
+
+```blocks3
+when green flag clicked
+set rotation style [left-right v]
+go to x: (0) y: (0)  // the middle fo the screen
+point in direction (90) // facing the right
+```
+
+![The scratch editor showig the script in the Code area](images/first-code.png)
+
+**Test:** Click on the `green flag`{:class="block3events"}, your sprite will move to the middle of the Stage.
+
+--- /task ---
+
+--- task ---
+
+Add a `forever`{:class="block3control"} loop to the bottom of your script. Insert `Motion`{:class="block3motion"} blocks inside your `forever`{:class="block3control"} loop to create weightless movement:
+
+![the Ripley sprite icon](images/ripley-sprite-icon.png)
+
+```blocks3
+when green flag clicked
+set rotation style [left-right v]
+go to x: (0) y: (0)  // the middle fo the screen
+point in direction (90) // facing the right
++ forever
+move (2) steps
+if on edge, bounce // turn around at edge of Stage
+```
+
+**Test:** Click on the `green flag`{:class="block3events"} again, your sprite will float across the Stage.
+
+--- /task ---
+
+--- save ---
