@@ -17,14 +17,11 @@ version: 3
 last_tested: 2017-01-01
 steps: 
 - title: Introduction
-- title: What you will need
-- title: 'Weightlessness: Mooncake in Space'
-- title: Set the stage with a space theme
-- title: Setting the start position
-- title: Adding movement
-- title: Adding directonal movement
-- title: Wrapping space
-- title: Make a game of it with variables
-- title: Catch the randomly moving ISS
-- title: Creating a Game Over screen
-- title: What next?
+- title: Set the space scene
+- title: Add weightlessness
+- title: Control direction
+- title: Catch a sprite 
+- title: Make a game of it with variables 
+- title: Create a Game Over screen 
+- title: What next? 
+

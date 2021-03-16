@@ -1,26 +1,53 @@
-## Set the stage with a space theme
+## Control direction
 
-- If you are using a Raspberry Pi you can open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**.
+Astronauts can control the direction of their movements. The character in your game will be controlled using the keyboard arrow keys.
 
-- Create a new file by selecting **File** and **New**.
+First, add a new script to move your character sprite upward when you press the up arrow key.
 
-- Delete the Scratch cat sprite by right-clicking on it and selecting **Delete** from the menu that is displayed.
+--- task ---
 
-- For this project, you need to create a new background. To do this, click on `stage` in the sprites palette and then click on `Backgrounds` next to the `scripts` tab.
+Drag a `when space key pressed`{:class="block3events"} block to an unused space in your Code area. Add a `point in direction`{:class="block3motion"} block underneath it:
 
-- Click on `Paint` to draw your own background. Once you're happy with your stage design, click **OK**. 	
+![the Ripley sprite icon](images/ripley-sprite-icon.png)
 
-- Next you will need to create a single sprite with two costumes, one shown flying and one falling. You can download an example sprite below which features Mooncake (the Raspberry Pi cat) wearing a jetpack.
+```blocks3
+when [up arrow v] key pressed // update key to up arrow
+point in direction (0) //direction 0 is pointing up
+```
 
-     ![Mooncake - the Astro Cat](images/Astro-cat.png)
+**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the up arrow to see your character sprite move upward. 
 
--  If you are connected to the internet you can download this sprite by clicking on the image above or using this [link](resources/Astro-Cat.sprite). Save the sprite somewhere you can find it later.
+--- /task ---
 
-- Next, add a new sprite by clicking on the `import a new sprite` icon on the sprites palette (which looks like the image below), then select `Astro-Cat` from the choices and click **OK**.
+You'll need to add three more scripts to move left, right and down. When you set up your character you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
 
-	![import new sprite](images/import-sprite-icon.png)
+--- task ---
 
-- Click on the `costumes` tab for the Mooncake sprite. You will see two Mooncake costumes: one with a jetpack firing and one without. You will use these costumes within your game to show that Mooncake is moving.
+Create three more scripts using `when space key pressed`{:class="block3events"} and `point in direction`{:class="block3motion"} blocks:
 
-- Click on the `scripts` tab of the sprite, and then save your Scratch project work by clicking on **File** and **Save As**. Name your program **weightless** and save it in your home directory or another place that you can find it later.
+![the Ripley sprite icon](images/ripley-sprite-icon.png)
 
+```blocks3
+when [right arrow v] key pressed // update key to right arrow
+point in direction (90) //direction 90 is pointing to the right
+```
+
+```blocks3
+when [left arrow v] key pressed // update key to left arrow
+point in direction (-90) //direction -90 is pointing to the left
+```
+
+```blocks3
+when [down arrow v] key pressed // update key to down arrow
+point in direction (180) //direction 180 is pointing down
+```
+
+**Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
+
+--- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Arrow keys**</span> are often used to control directional movements of a character in video games. Can you think of any other games that use arrow keys to control the player's character? 
+</p>
+
+--- save ---
