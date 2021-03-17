@@ -11,16 +11,15 @@ You will:
 --- no-print ---
 --- task ---
 ### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1">  
+
 Click on the green flag in the top left corner to start the game. Use the arrow keys to move around.
 
 How many times can you catch the space dog in 30 seconds?
-</div>
+
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/501663888/?autostart=false" frameborder="0"></iframe>
 </div>
-</div>
+
 --- /task ---
 --- /no-print ---
 
