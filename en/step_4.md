@@ -1,45 +1,45 @@
 ## Control direction
 
-Astronauts can control the direction of their movements. The character in your game will be controlled using the keyboard arrow keys.
+Astronauts can control the direction of their movements. The character in your game will be controlled by using the keyboard arrow keys.
 
-First, add a new script to move your character sprite upward when you press the up arrow key.
+First, add a new script to move your character sprite upward when you press the <kbd>up arrow</kbd> key.
 
 --- task ---
 
 Drag a `when space key pressed`{:class="block3events"} block to an unused space in your Code area. Add a `point in direction`{:class="block3motion"} block underneath it:
 
-![the Ripley sprite icon](images/ripley-sprite-icon.png)
+![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
 ```blocks3
-when [up arrow v] key pressed // update key to up arrow
-point in direction (0) //direction 0 is pointing up
+when [up arrow v] key pressed //Update key to up arrow
+point in direction (0) //Direction 0 points up
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the up arrow to see your character sprite move upward. 
+**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the <kbd>up arrow</kbd> to see your character sprite move upward. 
 
 --- /task ---
 
-You'll need to add three more scripts to move left, right and down. When you set up your character you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
+You'll need to add three more scripts to move left, right, and down. When you set up your character, you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
 
 --- task ---
 
 Create three more scripts using `when space key pressed`{:class="block3events"} and `point in direction`{:class="block3motion"} blocks:
 
-![the Ripley sprite icon](images/ripley-sprite-icon.png)
+![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
 ```blocks3
-when [right arrow v] key pressed // update key to right arrow
-point in direction (90) //direction 90 is pointing to the right
+when [right arrow v] key pressed //Update key to right arrow
+point in direction (90) //Direction 90 points to the right
 ```
 
 ```blocks3
-when [left arrow v] key pressed // update key to left arrow
-point in direction (-90) //direction -90 is pointing to the left
+when [left arrow v] key pressed //Update key to left arrow
+point in direction (-90) //Direction -90 points to the left
 ```
 
 ```blocks3
-when [down arrow v] key pressed // update key to down arrow
-point in direction (180) //direction 180 is pointing down
+when [down arrow v] key pressed //Update key to down arrow
+point in direction (180) //Direction 180 points down
 ```
 
 **Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
