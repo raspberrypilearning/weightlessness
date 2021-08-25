@@ -1,8 +1,8 @@
 ## Create a Game Over screen
 
-Game over screens are a great way to end video gomes. Some have a simple 'game over' message whilst others have details of who made the game, and some may even feature all the sprites involved in a game. 
+Game over screens are a great way to end video games. Some have a simple 'game over' message whilst others have details of who made the game, and some may even feature all the sprites involved in a game. 
 
-To create a game over screen you'll need to add a backdrop and edit it with colours, shapes, or text.
+To create a game over screen, you'll need to add a backdrop and edit it with colours, shapes, or text.
 
 --- task ---
 
@@ -48,7 +48,7 @@ Set up your game to start on your first backdrop, then change to the Game Over b
 
 --- task ---
 
-Click on your character sprite, at the end of your `set score to 0`{:class="block3variables"} script, add a `switch backdrop`{:class="block3looks"} block:
+Click on your **character** sprite, at the end of your `set score to 0`{:class="block3variables"} script, add a `switch backdrop`{:class="block3looks"} block:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
