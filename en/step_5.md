@@ -40,7 +40,7 @@ To turn your project into a game, the script needs to repeat every time your cha
 
 Add a `forever`{:class="block3control"} loop to the bottom of your object sprite script and insert an `if`{:class="block3control"} condition block inside. 
 
-To sense `if`{:class="block3control"} your sprites are touching, add a `touching mouse-pointer ?`{:class="block3sensing"} block and select your character sprite name from the drop down:
+To sense `if`{:class="block3control"} your sprites are touching, add a `touching mouse-pointer ?`{:class="block3sensing"} block and select your character sprite name from the drop-down menu:
 
 ![The Dot sprite icon.](images/dot-sprite-icon.png)
 
@@ -76,7 +76,7 @@ if <touching [Ripley v]> then
 + show 
 ```
 
-**Test:** Run your project. Use the arrow keys to move your character. When your sprites touch, your object sprite will hide and appear in a new position. 
+**Test:** Run your project. Use the arrow keys to move your character. When your sprites touch, your object sprite will hide and re-appear in a new position. 
 
 --- /task ---
 
