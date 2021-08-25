@@ -46,7 +46,7 @@ Sprites are characters and objects in Scratch. Can you find a sprite that has al
 
 --- task ---
 
-Delete the cat **Sprite1** sprite by clicking the trash can in the Sprite list:
+Delete the **Sprite1** cat sprite by clicking the trash can in the Sprite list:
 
 ![The trash can of Sprite1 highlighted.](images/delete-sprite.png)
 
