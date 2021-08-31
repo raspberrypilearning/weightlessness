@@ -23,4 +23,4 @@ What happens when you press the space key?
 
 --- /task ---
 
-- Check out some of our other [space-themed projects](https://projects.raspberrypi.org/en/projects/generic-scratch-space-maze).
+- Check out some of our other [space-themed projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=space).
