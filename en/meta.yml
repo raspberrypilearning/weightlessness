@@ -1,6 +1,8 @@
+---
 title: Weightlessness space game
 hero_image: images/banner.png
-description: Learn how to simulate the effects of weightlessness in space with this Scratch game
+description: Learn how to simulate the effects of weightlessness in space with this
+  Scratch game
 original_url: https://raspberrypi.org/learning/weightlessness
 theme: navy
 duration: 2
@@ -15,13 +17,14 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Set the space scene
 - title: Add weightlessness
 - title: Control direction
-- title: Catch a sprite 
-- title: Make a game of it with variables 
-- title: Create a Game Over screen 
-- title: What next? 
-
+- title: Catch a sprite
+- title: Make a game of it with variables
+  completion: internal
+- title: Create a Game Over screen
+- title: What next?
