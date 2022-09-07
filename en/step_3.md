@@ -29,7 +29,19 @@ point in direction (90) //Facing the right
 
 ![The scratch editor showing the script in the Code area.](images/first-code.png)
 
-**Test:** Click on the `green flag`{:class="block3events"}, your character sprite will move to the middle of the Stage.
+--- /task ---
+
+--- task ---
+
+**Test:** It is a good idea to test your project regularly in full screen mode using the **Full Screen Control**. This view will let you see your game the way a user playing your game would see it.
+
+To run your project in full-screen mode in Scratch, go to the area above the Stage and click on the icon with four arrows that point outwards. This is the Full Screen Control icon:
+
+![The icons on the top of the Stage with the far left icon 'full screen mode' highlighted.](images/full-screen-mode.png)
+
+Click on the `green flag`{:class="block3events"}, your character sprite will move to the middle of the Stage.
+
+To exit full-screen mode, click on the Full Screen Control icon again. It will have four arrows that point inwards.
 
 --- /task ---
 
@@ -49,7 +61,7 @@ move (2) steps
 if on edge, bounce //Turn around at edge of the Stage
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} again, your character sprite will float across the Stage.
+**Test:** Enter full screen mode then click on the `green flag`{:class="block3events"}, your character sprite will float across the Stage.
 
 --- /task ---
 

@@ -1,53 +1,109 @@
 ## Control direction
 
-Astronauts can control the direction of their movements. The character in your game will be controlled by using the keyboard arrow keys.
+Astronauts can control the direction of their movements. 
 
-First, add a new script to move your character sprite upwards when you press the <kbd>up arrow</kbd> key.
+To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of your character. Luckily, Scratch’s `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
 
 --- task ---
 
-Drag a `when space key pressed`{:class="block3events"} block to an unused space in your Code area. Add a `point in direction`{:class="block3motion"} block underneath it:
+Your program needs to continuously detect when the left mouse button is pressed. To do this, start a new script with a `when flag clicked`{:class="block3events"} block then add a `forever`{:class="block3control"} loop to your script. Inside the `forever`{:class="block3control"} loop add an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
 ```blocks3
-when [up arrow v] key pressed //Update key to up arrow
-point in direction (0) //Direction 0 points up
+when flag clicked
+forever
+if <mouse down?> then
 ```
-
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. Press the <kbd>up arrow</kbd> to see your character sprite move upwards. 
 
 --- /task ---
 
-You'll need to add three more scripts to move left, right, and down. When you set up your character, you added a `point in direction 90`{:class="block3motion"} block to point to the right. Can you work out what values you need to point left and down?
-
 --- task ---
 
-Create three more scripts using `when space key pressed`{:class="block3events"} and `point in direction`{:class="block3motion"} blocks:
+If the user clicks the cursor closer to the left-hand side of the Stage than your character's position, then your character sprite moves to the left.
+
+This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
+
+To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of your character sprite, `then`{:class="block3control"} the sprite should face to the left and `change x by`{:class="block3motion"} `-2` to move to the left:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
 ```blocks3
-when [right arrow v] key pressed //Update key to right arrow
-point in direction (90) //Direction 90 points to the right
-```
-
-```blocks3
-when [left arrow v] key pressed //Update key to left arrow
+when flag clicked
+forever
+if <mouse down?> then
++if <(mouse x) < (x position)> then
 point in direction (-90) //Direction -90 points to the left
+change x by (-2)
+end
+end
+end
 ```
 
-```blocks3
-when [down arrow v] key pressed //Update key to down arrow
-point in direction (180) //Direction 180 points down
-```
-
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
+**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the left when you click to the left of your character.
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Arrow keys**</span> are often used to control directional movements of a character in video games. Can you think of any other games that use arrow keys to control the player's character? 
-</p>
+--- task ---
+
+When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} your character sprite should face to the right and `change x by`{:class="block3motion"} `2` to move to the right. Add the following blocks:
+
+![The Ripley sprite icon.](images/ripley-sprite-icon.png)
+
+```blocks3
+when flag clicked
+forever
+if <mouse down?> then
+if <(mouse x) < (x position)> then
+point in direction (-90) //Direction -90 points to the left
+change x by (-2)
+end
++if <(mouse x) > (x position)> then
+point in direction (90) //Direction 90 points to the right
+change x by (2)
+end
+end
+end
+```
+
+**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the right when you click to the right of your character.
+
+--- /task ---
+
+If the user clicks the cursor closer to the top of the Stage than your character's position, then your character sprite moves up.
+
+This action is possible because the position of the cursor along the y axis is stored in the `mouse y`{:class="block3sensing"} block.
+
+--- task ---
+
+Add code to down up if `mouse y`{:class="block3sensing"} is `less than`{:class="block3operators"} the `y position`{:class="block3motion"} and move up `if`{:class="block3control"} `mouse y`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `y position`{:class="block3motion"}:
+
+![The Ripley sprite icon.](images/ripley-sprite-icon.png)
+
+```blocks3
+when flag clicked
+forever
+if <mouse down?> then
+if <(mouse x) < (x position)> then
+point in direction (-90) //Direction -90 points to the left
+change x by (-2)
+end
+if <(mouse x) > (x position)> then
+point in direction (90) //Direction 90 points to the right
+change x by (2)
+end
++if <(mouse y) < (y position)> then
+change y by (-2)
+end
++if <(mouse y) > (y position)> then
+change y by (2)
+end
+end
+end
+```
+
+**Test:** Enter full screen mode then click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
+
+--- /task ---
 
 --- save ---

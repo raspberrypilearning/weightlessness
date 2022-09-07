@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a Scratch game to simulate the effects of weightlessness in space. 
 
@@ -10,14 +10,17 @@ You will:
 
 --- no-print ---
 --- task ---
-### Try it
 
-Click on the green flag in the top left corner to start the game. Use the arrow keys to move around.
+### Play &#9654;
+
+Click on the green flag in the top left corner to start the game. Click the left mouse button to the left of the astronaut to move left. You can move up, down, left or right. 
+
+If you are on a tablet you can touch the Stage with your finger to move in the same way. 
 
 How many times can you catch the space dog in 30 seconds?
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/501663888/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/729126728/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---

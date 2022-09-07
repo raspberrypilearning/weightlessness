@@ -30,7 +30,7 @@ go to [random position v] //Moves to new position
 show //Appears on the Stage
 ```
 
-**Test:** Run your project a couple of times. Does your object sprite move to a different position each time?
+**Test:** Enter full screen mode then click on the green flag and run your project a couple of times. Does your object sprite move to a different position each time?
 
 --- /task ---
 
@@ -76,7 +76,7 @@ if <touching [Ripley v]> then
 + show 
 ```
 
-**Test:** Run your project. Use the arrow keys to move your character. When your sprites touch, your object sprite will hide and re-appear in a new position. 
+**Test:** Enter full screen mode then click on the green flag and move your character to the object. When your sprites touch, your object sprite will hide and re-appear in a new position. 
 
 --- /task ---
 

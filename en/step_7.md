@@ -73,7 +73,7 @@ say (score)
 stop [other scripts in sprite v] 
 ```
 
-**Test:** Run your project. Does your backdrop change to the Game Over screen? When you run it for a second time, does it switch back at the start of the game?
+**Test:** Enter full screen mode then run your project. Does your backdrop change to the Game Over screen? When you run it for a second time, does it switch back at the start of the game?
 
 --- /task ---
 

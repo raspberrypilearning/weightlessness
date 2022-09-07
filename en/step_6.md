@@ -66,7 +66,7 @@ go to [random position v]
 show 
 ```
 
-**Test:** Run your project. Your score will update each time the sprites touch. Run your project again to test that the `score`{:class="block3variables"} goes back to zero when you start a new run.
+**Test:** Enter full screen mode then run your project. Your score will update each time the sprites touch. Run your project again to test that the `score`{:class="block3variables"} goes back to zero when you start a new run.
 
 --- /task ---
 
@@ -76,7 +76,7 @@ Now that you have a `variable`{:class="block3variables"} to store the score, you
 
 Click on your **character** sprite. Add a new script to end the game `when timer is greater than 30`{:class="block3events"}.
 
-**Tip:** To find the `when timer >`{:class="block3events"} block, use the `when loudness >`{:class="block3events"} block from the `events`{:class="block3events"} blocks menu and change the drop-down option to `timer`{:class="block3events"}.
+**Tip:** To find the `when timer >`{:class="block3events"} block, use the `when loudness >`{:class="block3events"} block from the `events`{:class="block3events"} blocks menu and change the drop-down option to `timer`{:class="block3events"}. 
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
