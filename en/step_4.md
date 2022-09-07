@@ -35,6 +35,9 @@ if <mouse down?> then
 +if <(mouse x) < (x position)> then
 point in direction (-90) //Direction -90 points to the left
 change x by (-10)
+end
+end
+end
 ```
 
 --- /task ---
@@ -62,6 +65,9 @@ end
 +if <(mouse x) > (x position)> then
 point in direction (90) //Direction 90 points to the right
 change x by (10)
+end
+end
+end
 ```
 
 --- /task ---
@@ -93,12 +99,16 @@ end
 if <(mouse x) > (x position)> then
 point in direction (90) //Direction 90 points to the right
 change x by (10)
+end
 +if <(mouse y) > (y position)> then
 point in direction (0) //Direction 0 points up
-change y by (10)
+change y by (-10)
+end
 +if <(mouse y) < (y position)> then
 point in direction (180) //Direction 180 points down
-change y by (-10)
+change y by (10)
+end
+end
 end
 ```
 --- /task ---

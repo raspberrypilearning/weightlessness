@@ -12,7 +12,9 @@ You will:
 --- task ---
 ### Try it
 
-Click on the green flag in the top left corner to start the game. Use the arrow keys to move around.
+Click on the green flag in the top left corner to start the game. Click the left mouse button to the left of the astronaut to move left. You can move up, down, left or right. 
+
+If you are on a tablet you can touch the Stage with your finger to move in the same way. 
 
 How many times can you catch the space dog in 30 seconds?
 
