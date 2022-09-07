@@ -40,10 +40,6 @@ end
 end
 ```
 
---- /task ---
-
---- task ---
-
 **Test:** Click on the green flag to run the program to test that your character faces and moves to the left when you click to the left of your character.
 
 --- /task ---
@@ -69,10 +65,6 @@ end
 end
 end
 ```
-
---- /task ---
-
---- task ---
 
 **Test:** Click on the green flag to run the program to test that your character faces and moves to the right when you click to the right of your character.
 
@@ -111,9 +103,6 @@ end
 end
 end
 ```
---- /task ---
-
---- test ---
 
 **Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
 
