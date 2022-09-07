@@ -24,7 +24,7 @@ If the user clicks the cursor closer to the left-hand side of the Stage than you
 
 This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
 
-To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of your character sprite, `then`{:class="block3control"} the sprite should face to the left and `change x by`{:class="block3motion"} `-10` to move to the left:
+To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of your character sprite, `then`{:class="block3control"} the sprite should face to the left and `change x by`{:class="block3motion"} `-2` to move to the left:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
@@ -34,19 +34,19 @@ forever
 if <mouse down?> then
 +if <(mouse x) < (x position)> then
 point in direction (-90) //Direction -90 points to the left
-change x by (-10)
+change x by (-2)
 end
 end
 end
 ```
 
-**Test:** Click on the green flag to run the program to test that your character faces and moves to the left when you click to the left of your character.
+**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the left when you click to the left of your character.
 
 --- /task ---
 
 --- task ---
 
-When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} your character sprite should face to the right and `change x by`{:class="block3motion"} `10` to move to the right. Add the following blocks:
+When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} your character sprite should face to the right and `change x by`{:class="block3motion"} `2` to move to the right. Add the following blocks:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
@@ -56,17 +56,17 @@ forever
 if <mouse down?> then
 if <(mouse x) < (x position)> then
 point in direction (-90) //Direction -90 points to the left
-change x by (-10)
+change x by (-2)
 end
 +if <(mouse x) > (x position)> then
 point in direction (90) //Direction 90 points to the right
-change x by (10)
+change x by (2)
 end
 end
 end
 ```
 
-**Test:** Click on the green flag to run the program to test that your character faces and moves to the right when you click to the right of your character.
+**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the right when you click to the right of your character.
 
 --- /task ---
 
@@ -76,7 +76,7 @@ This action is possible because the position of the cursor along the y axis is s
 
 --- task ---
 
-Add code to face and move up if `mouse y`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `y position`{:class="block3motion"}. Also face and move down `if`{:class="block3control"} `mouse y`{:class="block3sensing"} is `less than`{:class="block3operators"} the `y position`{:class="block3motion"}:
+Add code to down up if `mouse y`{:class="block3sensing"} is `less than`{:class="block3operators"} the `y position`{:class="block3motion"} and move up `if`{:class="block3control"} `mouse y`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `y position`{:class="block3motion"}:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
@@ -86,25 +86,23 @@ forever
 if <mouse down?> then
 if <(mouse x) < (x position)> then
 point in direction (-90) //Direction -90 points to the left
-change x by (-10)
+change x by (-2)
 end
 if <(mouse x) > (x position)> then
 point in direction (90) //Direction 90 points to the right
-change x by (10)
-end
-+if <(mouse y) > (y position)> then
-point in direction (0) //Direction 0 points up
-change y by (-10)
+change x by (2)
 end
 +if <(mouse y) < (y position)> then
-point in direction (180) //Direction 180 points down
-change y by (10)
+change y by (-2)
+end
++if <(mouse y) > (y position)> then
+change y by (2)
 end
 end
 end
 ```
 
-**Test:** Click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
+**Test:** Enter full screen mode then click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
 
 --- /task ---
 

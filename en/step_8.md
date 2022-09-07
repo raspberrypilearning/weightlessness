@@ -7,11 +7,9 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-### Try it 
+### Play  
 
 What happens when you catch the robot? 
-
-What happens when you press the space key?
 
 </div>
 <div>
