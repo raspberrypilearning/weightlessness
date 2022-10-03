@@ -1,10 +1,10 @@
 ## You will make
 
-Create a Scratch game to simulate the effects of weightlessness in space. 
+Create a Scratch game to simulate objects floating in space.
 
 You will:
 
-- Simulate weightlessness using a `forever`{:class="block3control"} loop and `point in direction`{:class="block3motion"} blocks
+- Simulate objects floating in space using a `forever`{:class="block3control"} loop and `point towards`{:class="block3motion"} blocks
 - Add and edit a 'Game Over' backdrop then `switch backdrop`{:class="block3looks"} using code
 - Use the Scratch `timer`{:class="block3sensing"} variable and make your own `score variable`{:class="block3variables"} to create a game
 
