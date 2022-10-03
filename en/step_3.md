@@ -1,6 +1,6 @@
-## Add weightlessness
+## Make your sprite weightless
 
-Your character is in space and will be floating around experiencing the effects of weightlessness. 
+Your character is in space and will be floating around feeling weightless. 
 
 At the moment, your character sprite is quite big so your game will be too easy!
 

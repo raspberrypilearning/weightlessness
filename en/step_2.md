@@ -1,6 +1,6 @@
 ## Set the space scene
 
-On Earth, **gravity** pulls everything and everybody down towards the ground. In space it feels like everything is floating because everything becomes **weightless** outside of our planet's gravity. 
+On Earth, **gravity** pulls everything and everybody down towards the ground. In space it feels like everything is floating because it is no longer being pulled by our planet’s gravity.
 
 You will set up your weightlessness space game with a space backdrop and a space character. 
 
