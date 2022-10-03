@@ -1,6 +1,6 @@
 ## Control direction
 
-Astronauts can control the direction of their movements. 
+Your astronaut is wearing a spacesuit with thrusters, allowing them to control the direction of their movements. 
 
 To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of your character. Luckily, Scratch’s `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
 
