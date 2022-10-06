@@ -28,7 +28,7 @@ To get the character sprite to respond to where the user clicks, add the followi
 when flag clicked
 forever
 if <mouse down?> then
-+ point towards (mouse-pointer) 
++ point towards (mouse-pointer v) 
 + move (2) steps
 end
 ```
