@@ -2,8 +2,6 @@
 
 Your astronaut is wearing a spacesuit with thrusters, allowing them to control the direction of their movements. 
 
-To make this project suitable for mobile devices, you will use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of your character. Luckily, Scratch’s `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
-
 --- task ---
 
 Your program needs to continuously detect when the left mouse button is pressed. To do this, start a new script with a `when flag clicked`{:class="block3events"} block then add a `forever`{:class="block3control"} loop to your script. Inside the `forever`{:class="block3control"} loop add an `if ... then`{:class="block3control"} block to detect if `mouse down`{:class="block3sensing"}:
@@ -20,11 +18,9 @@ if <mouse down?> then
 
 --- task ---
 
-If the user clicks the cursor closer to the left-hand side of the Stage than your character's position, then your character sprite moves to the left.
+Scratch’s `mouse down`{:class="block3sensing"} block works for fingers on mouse buttons and on touchscreens!
 
-This action is possible because the position of the cursor along the x axis is stored in the `mouse x`{:class="block3sensing"} block.
-
-To get the program to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `less than`{:class="block3operators"} the `x position`{:class="block3motion"} of your character sprite, `then`{:class="block3control"} the sprite should face to the left and `change x by`{:class="block3motion"} `-2` to move to the left:
+To get the character sprite to respond to where the user clicks, add the following blocks: `if`{:class="block3control"} `mouse down`{:class="block3sensing"} `then`{:class="block3control"} the sprite should `point towards mouse-pointer`{:class="block3motion"} and `move 2 steps`{:class="block3motion"}:
 
 ![The Ripley sprite icon.](images/ripley-sprite-icon.png)
 
@@ -32,77 +28,18 @@ To get the program to respond to where the user clicks, add the following blocks
 when flag clicked
 forever
 if <mouse down?> then
-+if <(mouse x) < (x position)> then
-point in direction (-90) //Direction -90 points to the left
-change x by (-2)
-end
-end
++ point towards (mouse-pointer) 
++ move (2) steps
 end
 ```
-
-**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the left when you click to the left of your character.
 
 --- /task ---
 
 --- task ---
 
-When the mouse is clicked, `if`{:class="block3control"} `mouse x`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `x position`{:class="block3motion"}, `then`{:class="block3control"} your character sprite should face to the right and `change x by`{:class="block3motion"} `2` to move to the right. Add the following blocks:
+**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves towards your mouse-pointer.
 
-![The Ripley sprite icon.](images/ripley-sprite-icon.png)
-
-```blocks3
-when flag clicked
-forever
-if <mouse down?> then
-if <(mouse x) < (x position)> then
-point in direction (-90) //Direction -90 points to the left
-change x by (-2)
-end
-+if <(mouse x) > (x position)> then
-point in direction (90) //Direction 90 points to the right
-change x by (2)
-end
-end
-end
-```
-
-**Test:** Enter full screen mode then click on the green flag to run the program to test that your character faces and moves to the right when you click to the right of your character.
-
---- /task ---
-
-If the user clicks the cursor closer to the top of the Stage than your character's position, then your character sprite moves up.
-
-This action is possible because the position of the cursor along the y axis is stored in the `mouse y`{:class="block3sensing"} block.
-
---- task ---
-
-Add code to down up if `mouse y`{:class="block3sensing"} is `less than`{:class="block3operators"} the `y position`{:class="block3motion"} and move up `if`{:class="block3control"} `mouse y`{:class="block3sensing"} is `greater than`{:class="block3operators"} the `y position`{:class="block3motion"}:
-
-![The Ripley sprite icon.](images/ripley-sprite-icon.png)
-
-```blocks3
-when flag clicked
-forever
-if <mouse down?> then
-if <(mouse x) < (x position)> then
-point in direction (-90) //Direction -90 points to the left
-change x by (-2)
-end
-if <(mouse x) > (x position)> then
-point in direction (90) //Direction 90 points to the right
-change x by (2)
-end
-+if <(mouse y) < (y position)> then
-change y by (-2)
-end
-+if <(mouse y) > (y position)> then
-change y by (2)
-end
-end
-end
-```
-
-**Test:** Enter full screen mode then click on the `green flag`{:class="block3events"} to run your project. You can now move your character sprite in all directions.
+Make sure that your character moves in all directions.
 
 --- /task ---
 
